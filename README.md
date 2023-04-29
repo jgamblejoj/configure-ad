@@ -42,8 +42,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <p>
 The first step involved creating a Resource Group, Portfolio-Lab, which would be used to contain the two virtual machines. The next step involved creating a Windows 10 Virtual Machine that runs Windows 10, P-VM. Next, a virtual machine that runs Linux (Ubuntu) was created, P-VM2. 
 </p>
-<img src="https://imgur.com/a/7AmT5Yb" height="80%" width="80%" alt="Windows 10 Virtual Machine"/>
-<img src="https://imgur.com/a/pl9Hrdu" height="80%" width="80%" alt="Linux (Ubuntu) Virtual Machine"/>
+<img src="https://imgur.com/a/Qam5WMx" height="80%" width="80%" alt="Windows 10 Virtual Machine"/>
+<img src="https://imgur.com/a/ttGFqO0" height="80%" width="80%" alt="Linux (Ubuntu) Virtual Machine"/>
 <br />
 
 <p>
