@@ -24,10 +24,15 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>High-Level Deployment and Configuration Steps</h2>
 
-- Step 1
-- Step 2
-- Step 3
-- Step 4
+<h5>Part 1 (Create our Resources)</h5>
+- Create a Resource Group
+- Create a Windows 10 Virtual Machine (VM)
+- While creating the VM, select the previously created Resource Group
+- While creating the VM, allow it to create a new Virtual Network (Vnet) and Subnet
+- Create a Linux (Ubuntu) VM
+- While create the VM, select the previously created Resource Group and Vnet
+- Observe Your Virtual Network within Network Watcher
+
 
 <h2>Deployment and Configuration Steps</h2>
 
@@ -35,8 +40,10 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+The first step involved creating a Resource Group, Portfolio-Lab, which would be used to contain the two virtual machines. The next step involved creating a Windows 10 Virtual Machine that runs Windows 10, P-VM. Next, a virtual machine that runs Linux (Ubuntu) was created, P-VM2. 
 </p>
+<img src="https://imgur.com/a/7AmT5Yb" height="80%" width="80%" alt="Windows 10 Virtual Machine"/>
+<img src="https://imgur.com/a/pl9Hrdu" height="80%" width="80%" alt="Linux (Ubuntu) Virtual Machine"/>
 <br />
 
 <p>
