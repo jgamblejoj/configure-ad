@@ -47,10 +47,9 @@ The first step involved creating a Resource Group, Portfolio-Lab, which would be
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Wireshark was installed on the Windows 10 Virtual Machine (P-VM) and run. While first using Wireshark, I noticed that I received no response after attempting to ping the Linux VM. The reason for this was that I did not add the Linux VM to the same virtual network (this is due to the VM being deployed in a different region) as the Windows 10 VM. After recreating the Linux VM with the correct configurations, the ping was replied to by the Linux VM. An exercise was then conducted where the ICMP traffic to P-VM2 (Linux) was blocked by creating a new inbound security rule which denied ICMP traffic from anywhere. After observing the blocked ICMP traffic via Wireshark and the Powershell terminal (P-VM), the default security rules were restored.  
 </p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <br />
 
